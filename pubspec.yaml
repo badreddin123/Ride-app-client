@@ -1,0 +1,28 @@
+name: fl_test
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^2.1.0
+  #open_street_map_search_and_pick:
+  geocode:  # Use the latest version
+  geocoding: ^2.1.0
+  #webview_flutter: ^2.0.14
+  #flutter_inappwebview: ^5.0.5
+  http: ^0.13.3
+  dio: ^5.2.0
+  dio_cookie_manager: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
